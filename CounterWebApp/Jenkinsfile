@@ -26,7 +26,7 @@ pipeline {
 		   	nexusArtifactUploader(
     			nexusVersion: 'nexus3',
     			protocol: 'http',
-    			nexusUrl: 'localhost:8081',
+    			nexusUrl: 'localhost:9081',
     			groupId: 'com.mkyong',
     			version: '1.0-SNAPSHOT',
     			repository: 'maven-snapshots',
@@ -67,15 +67,3 @@ pipeline {
         }
     }
 }
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
